@@ -1,7 +1,7 @@
+import { ProjectController } from './controllers/project.controller';
+
 import './main.scss';
 
-import {hell} from './test.js'
 
-hell()
+new ProjectController()
 
-console.log('hey')
