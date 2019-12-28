@@ -14,8 +14,10 @@ An app for noting todos.
 + Javascript (Vanilla)
 
 ### Getting Started
-Clone repo
+clone repo
+
 `cd` into folder and run `npm install`
+
 run `npm start`
 
 # Live Version
