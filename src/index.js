@@ -1,7 +1,5 @@
-import { ProjectController } from './controllers/project.controller';
-
 import './main.scss';
-
-
-new ProjectController()
+import './components/project-list';
+import './components/project';
+import './components/todo';
 
