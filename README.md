@@ -19,7 +19,7 @@ An app for noting todos.
 + run `npm start`
 
 # Live Version
-#### URL: [Start Taking Notes](https://note-taking.ayezahmed.now.sh )
+#### URL: [Start Writing Todos](https://dist.ayezahmed.now.sh  )
 
 # Author
 + Saintaze [@saintaze](https://github.com/saintaze/)
