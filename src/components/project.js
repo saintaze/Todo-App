@@ -86,6 +86,7 @@ template.innerHTML = `
   .project-name {
     background-color: white;
     font-family: 'Kalam', cursive;
+    font-family: 'Courier Prime';
     border: 2px outset turquoise;
     border-radius: .4rem;
     padding: .5rem 1.4rem;
@@ -109,7 +110,7 @@ template.innerHTML = `
     <button class="project-edit-btn">✎</button>
     <button class="project-update-btn">+</button>
     <span class="project-todo-count"></span>
-    <input class="project-edit-input" maxlength="34"></input> 
+    <input class="project-edit-input" maxlength="30"></input> 
     <span class="project-name"></span>
     <button class="project-delete-btn">-</button>
   </li>

@@ -43,7 +43,7 @@ h2 {
   display: flex;
   justify-content: center;
   padding: 0 1.6rem;
-  min-width: 1220px;
+  min-width: 1259px;
 }
 
 .project{
@@ -118,4 +118,6 @@ h2 {
   width: 100%;
 }
 
-
+.project-create, .todo-create {
+  margin-bottom: 2.5rem;
+}
