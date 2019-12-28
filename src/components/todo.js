@@ -170,7 +170,7 @@ template.innerHTML = `
     </div>
 
     <div class="edit-wrapper">
-      <input type="text" class="todo-description-input" maxlength="44">
+      <input type="text" class="todo-description-input" maxlength="48">
       <input type="date" class="todo-date-input">
       <input type="number" class="todo-priority-select" value="3" min="1", max="3">
     </div>

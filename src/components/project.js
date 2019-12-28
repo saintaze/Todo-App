@@ -86,9 +86,9 @@ template.innerHTML = `
   .project-name {
     background-color: white;
     font-family: 'Kalam', cursive;
-    border: 2px outset lightskyblue;
-    border-radius: .3rem;
-    padding: .2rem 1.4rem;
+    border: 2px outset turquoise;
+    border-radius: .4rem;
+    padding: .5rem 1.4rem;
     transition: all 100ms ease-in-out;
     width: 77%;
   }
@@ -97,6 +97,7 @@ template.innerHTML = `
     border-radius: 3px;
     font-family: kalam, Courier, monospace;
     font-size: 1.6rem;
+    width: 77%;
   } 
 
   .project-edit-btn {
@@ -108,7 +109,7 @@ template.innerHTML = `
     <button class="project-edit-btn">✎</button>
     <button class="project-update-btn">+</button>
     <span class="project-todo-count"></span>
-    <input class="project-edit-input" maxlength="30"></input> 
+    <input class="project-edit-input" maxlength="34"></input> 
     <span class="project-name"></span>
     <button class="project-delete-btn">-</button>
   </li>
