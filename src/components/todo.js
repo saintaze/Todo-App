@@ -237,6 +237,7 @@ class TodoComponent extends HTMLElement {
     const todoUpdatedDescription = this.$todoDescriptionInput.value;
     const todoUpdatedDate = this.$todoDateInput.value;
     const todoUpdatedPriority = this.$todoPrioritySelect.value;
+    if (Math.floor(todoUpdatedPriority) < 1 || Math.floor(todoUpdatedPriority) > 3) return;
     const todoUpdatedCompleted = this.$todoCompleted.checked;
     const updatedTodo = new Todo(todoUpdatedDescription, todoUpdatedDate, todoUpdatedPriority, todoUpdatedCompleted);
     const eventPayload = {

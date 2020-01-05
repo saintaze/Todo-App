@@ -91,6 +91,7 @@ class ProjectListComponent extends HTMLElement {
     const {value: todoDescription} = document.querySelector('.todo-description');
     const {value: todoDate} = document.querySelector('.todo-date');
     const {value: todoPriority} = document.querySelector('.todo-priority');
+    if (Math.floor(todoPriority) < 1 || Math.floor(todoPriority) > 3) return;
     if (todoDescription.trim() === '' || todoDate.trim() === ''){
       document.querySelector('.flash-fields').style.display = 'block';
       return
