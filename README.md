@@ -21,7 +21,7 @@ clone repo
 run `npm start`
 
 # Live Version
-#### URL: [Start Noting Todos](https://dist.ayezahmed.now.sh  )
+#### URL: [Start Noting Todos](https://todo.ayezahmed.now.sh)
 
 # Author
 + Saintaze [@saintaze](https://github.com/saintaze/)
