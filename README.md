@@ -24,4 +24,4 @@ run `npm start`
 #### URL: [Start Noting Todos](https://todo.ayezahmed.now.sh)
 
 # Author
-+ Saintaze [@saintaze](https://github.com/saintaze/)
+Saintaze [@saintaze](https://github.com/saintaze/)
